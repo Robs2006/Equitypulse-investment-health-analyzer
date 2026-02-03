@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of FinEdge HNI Investment Dashboard",
+  "description": "A high-end financial advisory dashboard for HNIs, featuring curated market insights, company health analysis, and AI-driven investment modeling suggestions.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
