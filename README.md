@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Equitypulse Investment Health Analyzer
 
-# Run and deploy your AI Studio app
+## Problem Statement
+High Net Worth Individuals (HNIs) require consolidated, explainable, and data-driven insights to make informed equity investment decisions. Existing tools provide raw data but lack an overall health indicator and comparative classification.
 
-This contains everything you need to run your app locally.
+## Architecture Diagram (Optional but Powerful)
+Even a simple diagram image boosts credibility:
 
-View your app in AI Studio: https://ai.studio/apps/drive/197zmnT-dAqZlNk2Ipdhe9nfUA3OKDUFT
+API → Data Processing → Scoring Engine → Visualization
 
-## Run Locally
+## Health Score Methodology
+The health score is computed using a weighted model:
+- Revenue Growth – 30%
+- Profitability – 25%
+- Cash Flow Strength – 20%
+- Balance Sheet Stability – 15%
+- Market Risk – 10%
 
-**Prerequisites:**  Node.js
+## Roadmap
+**MVP:**
+- Rule-based financial health scoring  
+- Market cap classification  
+- Visual insights  
 
+**Future Enhancements:**
+- ML-based forecasting (LSTM, XGBoost)  
+- Portfolio optimization  
+- Real-time streaming pipelines  
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
