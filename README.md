@@ -3,7 +3,7 @@
 ## Problem Statement
 High Net Worth Individuals (HNIs) require consolidated, explainable, and data-driven insights to make informed equity investment decisions. Existing tools provide raw data but lack an overall health indicator and comparative classification.
 
-## Architecture Diagram (Optional but Powerful)
+## Architecture Diagram 
 Even a simple diagram image boosts credibility:
 
 API → Data Processing → Scoring Engine → Visualization
